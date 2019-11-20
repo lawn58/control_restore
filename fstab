@@ -1,0 +1,12 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Sun Nov 17 15:19:24 2019
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/cl-root     /                       xfs     defaults        0 0
+UUID=1078daf8-da81-4a43-b369-935fb0c55b6e /boot                   xfs     defaults        0 0
+/dev/mapper/cl-home     /home                   xfs     defaults        0 0
+/dev/mapper/cl-swap     swap                    swap    defaults        0 0
